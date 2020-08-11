@@ -1,0 +1,49 @@
+/* цвет основного текста #212121; */
+/* вторичный цвет текста #757575; */
+/* белый #FFFFFF; */
+/* акцент #2196F3; */
+/* в футере адрес (тел/мыло) rgba(255, 255, 255, 0.6); */
+
+:root {
+  --nav-text-color: #212121;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --description-text-color: #757575;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+/* logo */
+.logo {
+  color: #000000;
+}
+
+/* site-nav */
+.site-nav a {
+  color: var(--nav-text-color);
+}
+
+.site-nav a.current {
+  color: var(--accent-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+
+/* address-header */
+.address-header a {
+  color: #757575;
+}
+
+.address-header a:hover,
+.address-header a:focus {
+  color: var(--accent-color);
+}

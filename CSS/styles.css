@@ -1,0 +1,42 @@
+/* баннер */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title,
+.button {
+  color: #ffffff;
+}
+
+.button {
+  background-color: var(--accent-color);
+}
+
+/* цвет заголовков секций */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* особенности */
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+.feature-list .desc {
+  color: var(--description-text-color);
+}
+
+/* чем мы занимаемся */
+
+/* наша команда */
+.team-list .title {
+  color: var(--title-text-color);
+}
+
+.team-list .desc {
+  color: var(--description-text-color);
+}
+
+.team-section {
+  background-color: #f5f4fa;
+}

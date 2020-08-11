@@ -4,22 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студия</title>
+    <link rel="stylesheet" href="./CSS/common.css">
+    <link rel="stylesheet" href="./CSS/styles.css" />
   </head>
 
   <body>
     <!-- Шапка -->
     <header>
       <nav>
-        <a href="/">Web Studio</a>
+        <a href="/" clas  go">Web Studio</a>
 
-        <ul>
-          <li><a href="index.html">Студия</a></li>
+        <ul class="site-nav list">
+          <li><a href="index.html" class="current">Студия</a></li>
           <li><a href="portfolio.html">Портфолио</a></li>
           <li><a href="">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul>
+      <ul class="address-header list">
         <li>
           <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
@@ -32,41 +34,41 @@
     <!-- Уникальный контент страницы -->
     <main>
       <!-- Баннер -->
-      <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
+      <section class="hero">
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
         <p>
-          <a href="">Заказать услугу</a>
+          <a href="" class="button">Заказать услугу</a>
         </p>
       </section>
 
       <!-- Особенности -->
-      <section>
-        <h2>Особенности</h2>
-        <ul>
+      <section class="section">
+        <h2 class="section-title">Особенности</h2>
+        <ul class="feature-list list">
           <li>
-            <h3>Внимание к деталям</h3>
-            <p>
+            <h3 class="title">Внимание к деталям</h3>
+            <p class="desc">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="title">Пунктуальность</h3>
+            <p class="desc">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="title">Планирование</h3>
+            <p class="desc">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <h3>Современные технологии</h3>
-            <p>
+            <h3 class="title">Современные технологии</h3>
+            <p class="desc">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -75,10 +77,10 @@
       </section>
 
       <!-- Чем мы занимаемся -->
-      <section>
-        <h2>Чем мы занимаемся</h2>
+      <section class="section">
+        <h2 class="section-title">Чем мы занимаемся</h2>
 
-        <ul>
+        <ul class="work list">
           <li>
             <img
               src="./images/what-are-we-doing-1.jpg"
@@ -104,17 +106,17 @@
       </section>
 
       <!-- Наша команда -->
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
+      <section class="team-section">
+        <h2 class="section-title">Наша команда</h2>
+        <ul class="team-list list">
           <li>
             <img
               src="./images/our-team-1.jpg"
               alt="Мужчина в очках с бородой"
               width="270"
             />
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <h3 class="title">Игорь Демьяненко</h3>
+            <p class="desc">Product Designer</p>
           </li>
 
           <li>
@@ -123,8 +125,8 @@
               alt="Улыбающаяся блондинка в очках и в черном пиджаке"
               width="270"
             />
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="title">Ольга Репина</h3>
+            <p class="desc">Frontend Developer</p>
           </li>
 
           <li>
@@ -133,8 +135,8 @@
               alt="Улыбающийся парень в белой рубашке"
               width="270"
             />
-            <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="title">Николай Тарасов</h3>
+            <p class="desc">Marketing</p>
           </li>
 
           <li>
@@ -143,8 +145,8 @@
               alt="Мужчина в круглых очках и черной футболке"
               width="270"
             />
-            <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="title">Михаил Ермаков</h3>
+            <p class="desc">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -155,7 +157,7 @@
       <!-- Лого и адресс -->
       <div>
         <a href="/">Web Studio</a>
-        <address>
+        <address class="text">
           г. Киев, пр-т Леси Украинки, 26 <br />
           info@example.com <br />
           +38 099 111 11 11
