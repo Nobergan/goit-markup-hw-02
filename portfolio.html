@@ -4,22 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
+    <link rel="stylesheet" href="./CSS/portfolio.css" />
   </head>
 
   <body>
-    <!-- Шапка -->
+ <!-- Шапка -->
     <header>
       <nav>
-        <a href="/">Web Studio</a>
+        <a href="/" clas  go">Web Studio</a>
 
-        <ul>
+        <ul class="site-nav list">
           <li><a href="index.html">Студия</a></li>
-          <li><a href="portfolio.html">Портфолио</a></li>
+          <li><a href="portfolio.html" class="current">Портфолио</a></li>
           <li><a href="">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul>
+      <ul class="address-header list">
         <li>
           <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
@@ -32,32 +33,32 @@
     <!-- Уникальный контент страницы -->
     <main>
       <!-- Портфолио -->
-      <section>
+      <section class="project-section">
         <h1>Проекты</h1>
 
         <!-- Фильтры -->
-        <nav>
-          <ul>
-            <a href=""> <li>Все</li></a>
-            <a href=""> <li>Веб-сайты</li></a>
-            <a href=""> <li>Приложения</li></a>
-            <a href=""> <li>Дизайн</li></a>
-            <a href=""> <li>Маркетинг</li></a>
+         <nav>
+            <ul class="filters-list list">
+            <li><a href="">Все</a></li>
+            <li><a href="">Веб-сайты</a></li>
+            <li><a href="">Приложения</a></li>
+            <li><a href="">Дизайн</a></li>
+            <li><a href="">Маркетинг</a></li>
           </ul>
-        </nav>
-
+         </nav>
+        
         <!-- Проекты -->
-        <ul>
+        <ul class="project-list list">
           <li>
             <a href="">
               <img
                 src="./images/project-1.jpg"
                 alt="Ноутбук, на экране три карточки с портретами людей"
                 width="370"
-              />
+              class="bg-color"/>
             </a>
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
+            <h2 class="title">Технокряк</h2>
+            <p class="desc">Веб-сайт</p>
           </li>
           <li>
             <a href="">
@@ -67,8 +68,8 @@
                 width="370"
               />
             </a>
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
+            <h2 class="title">Постер New Orlean vs Golden Star</h2>
+            <p class="desc">Дизайн</p>
           </li>
           <li>
             <a href="">
@@ -78,8 +79,8 @@
                 width="370"
               />
             </a>
-            <h2>Ресторан Seafood</h2>
-            <p>Приложение</p>
+            <h2 class="title">Ресторан Seafood</h2>
+            <p class="desc">Приложение</p>
           </li>
           <li>
             <a href="">
@@ -89,8 +90,8 @@
                 width="370"
               />
             </a>
-            <h2>Проект Prime</h2>
-            <p>Маркетинг</p>
+            <h2 class="title">Проект Prime</h2>
+            <p class="desc">Маркетинг</p>
           </li>
           <li>
             <a href="">
@@ -100,8 +101,8 @@
                 width="370"
               />
             </a>
-            <h2>Проект Boxes</h2>
-            <p>Приложение</p>
+            <h2 class="title">Проект Boxes</h2>
+            <p class="desc">Приложение</p>
           </li>
           <li>
             <a href="">
@@ -111,8 +112,8 @@
                 width="370"
               />
             </a>
-            <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
+            <h2 class="title">Inspiration has no Borders</h2>
+            <p class="desc">Веб-сайт</p>
           </li>
           <li>
             <a href="">
@@ -122,8 +123,8 @@
                 width="370"
               />
             </a>
-            <h2>Издание Limited Edition</h2>
-            <p>Дизайн</p>
+            <h2 class="title">Издание Limited Edition</h2>
+            <p class="desc">Дизайн</p>
           </li>
           <li>
             <a href="">
@@ -133,8 +134,8 @@
                 width="370"
               />
             </a>
-            <h2>Проект LAB</h2>
-            <p>Маркетинг</p>
+            <h2 class="title">Проект LAB</h2>
+            <p class="desc">Маркетинг</p>
           </li>
           <li>
             <a href="">
@@ -144,8 +145,8 @@
                 width="370"
               />
             </a>
-            <h2>Growing Business</h2>
-            <p>Приложение</p>
+            <h2 class="title">Growing Business</h2>
+            <p class="desc">Приложение</p>
           </li>
         </ul>
       </section>

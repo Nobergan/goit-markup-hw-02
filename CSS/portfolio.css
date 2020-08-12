@@ -1,15 +1,12 @@
-/* цвет основного текста #212121; */
-/* вторичный цвет текста #757575; */
-/* белый #FFFFFF; */
-/* акцент #2196F3; */
-/* в футере адрес (тел/мыло) rgba(255, 255, 255, 0.6); */
-
 :root {
   --nav-text-color: #212121;
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --description-text-color: #757575;
+  --nav-filters-color: #212121;
 }
+
+/* ШАПКА */
 
 header {
   background-color: #ffffff;
@@ -46,4 +43,29 @@ header {
 .address-header a:hover,
 .address-header a:focus {
   color: var(--accent-color);
+}
+
+/* БОДИ */
+
+/* фильтры */
+
+.filters-list a {
+  background-color: #f5f4fa;
+  color: var(--nav-filters-color);
+}
+
+.filters-list a:hover,
+.filters a:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* проекты */
+
+.project-list .title {
+  color: var(--title-text-color);
+}
+
+.project-list .desc {
+  color: var(--description-text-color);
 }
