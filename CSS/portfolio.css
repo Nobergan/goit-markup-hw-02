@@ -49,13 +49,13 @@ header {
 
 /* фильтры */
 
-.filters-list a {
+.filters-list button {
   background-color: #f5f4fa;
   color: var(--nav-filters-color);
 }
 
-.filters-list a:hover,
-.filters a:focus {
+.filters-list button:hover,
+.filters-list button:focus {
   color: #ffffff;
   background-color: var(--accent-color);
 }
@@ -68,4 +68,9 @@ header {
 
 .project-list .desc {
   color: var(--description-text-color);
+}
+
+/* футер */
+.footer {
+  background-color: #2f303a;
 }
