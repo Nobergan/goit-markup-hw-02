@@ -8,8 +8,10 @@
 
 /* ШАПКА */
 
-header {
+body {
   background-color: #ffffff;
+
+  font-family: Roboto, sans-serif;
 }
 
 .list {
@@ -19,11 +21,30 @@ header {
 /* logo */
 .logo {
   color: #000000;
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
+}
+
+.web-color {
+  color: var(--accent-color);
 }
 
 /* site-nav */
 .site-nav a {
   color: var(--nav-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
 }
 
 .site-nav a.current {
@@ -38,6 +59,13 @@ header {
 /* address-header */
 .address-header a {
   color: #757575;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
 }
 
 .address-header a:hover,
@@ -52,6 +80,12 @@ header {
 .filters-list button {
   background-color: #f5f4fa;
   color: var(--nav-filters-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .filters-list button:hover,
@@ -64,13 +98,47 @@ header {
 
 .project-list .title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .project-list .desc {
   color: var(--description-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+
+.project-list a {
+  text-decoration: none;
 }
 
 /* футер */
 .footer {
   background-color: #2f303a;
+}
+
+.studio-color {
+  color: #ffffff;
+}
+
+.footer .map {
+  color: #ffffff;
+}
+
+.footer .address {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
